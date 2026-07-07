@@ -21,9 +21,14 @@ function Header() {
     >
       {/* Logo */}
       <div className="flex-1">
-        <a href="#hero" className="flex items-center gap-2 text-2xl font-bold">
+        <a href="#hero" className="flex items-center gap-2 text-lg font-bold">
           <Coffee className="size-7" />
-          Placeholder
+          <div className="hidden md:block">
+            <h1 className="font-bold">Latin Biosoto</h1>
+            <p className="text-xs opacity-70">
+              Latin America Biodiverse Social Tour Operator
+            </p>
+          </div>
         </a>
       </div>
 
